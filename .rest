@@ -10,3 +10,15 @@ Content-Type: application/json
 }
 ###
 GET http://localhost:8000/users/602931982b317125c4939009 HTTP/1.1
+
+###
+PUT http://localhost:8000/users/602931982b317125c4939009 HTTP/1.1
+Content-Type: application/json
+
+{
+  "newData":{
+    "name":"Jim",
+    "email":"jim@email.com",
+    "password":"newPassword"
+  }
+}
