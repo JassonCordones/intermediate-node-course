@@ -5,7 +5,7 @@ const port=8000;
 const app= express();
 
 const User=require('./models/User');
-mongoose.connect('mongodb+srv://jasson2:AMiM5WzWizWRgzLr@cluster0.ftbk5.gcp.mongodb.net/userData?retryWrites=true&w=majority', {useUnifiedTopology: true, useNewUrlParser: true})
+mongoose.connect('mongodb+srv://username:password@cluster0.ftbk5.gcp.mongodb.net/database?retryWrites=true&w=majority', {useUnifiedTopology: true, useNewUrlParser: true})
 
 app.use(bodyParser.json());
 
