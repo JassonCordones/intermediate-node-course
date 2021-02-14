@@ -22,3 +22,6 @@ Content-Type: application/json
     "password":"newPassword"
   }
 }
+
+###
+DELETE http://localhost:8000/users/602931982b317125c4939009 HTTP/1.1
